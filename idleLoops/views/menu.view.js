@@ -9,7 +9,7 @@ Views.registerView('menu',{
       return html;
    },
    htmlChangelog : function () {
-     var html = "<div style='display:inline-block;height:30px;margin-left:2px;' class='showthatH'>";
+     var html = "<div style='display:inline-block;height:18px;margin-left:2px;' class='showthatH'>";
        html += _txt("menu>changelog>meta>title");
        html += "<div class='showthisH' id='changelog'>";
 
