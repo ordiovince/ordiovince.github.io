@@ -20,6 +20,9 @@ body {
     background-color: #323232;
     cursor: default;
 }
+div#menu {
+    font-size: 10px;
+}
 .showthatH:hover .showthisH {
     display:block;
 }
