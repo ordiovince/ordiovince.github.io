@@ -26,7 +26,7 @@ Views.registerView('menu',{
      return html;
    },
    htmlSaveMenu : function () {
-     var html = "<div style='display:inline-block;height:30px;margin-left:2px;cursor:pointer;'>";
+     var html = "<div style='display:inline-block;height:18px;margin-left:2px;cursor:pointer;'>";
      html += "<div onclick='showSavingDiv()'>" + _txt("menu>save>meta>title") + "</div>";
      html += "<div id='savingDiv' class='showthis' style='cursor:default'>";
         html += "<div style='float:right;cursor:pointer' class='fa fa-times' onclick='hideSavingDiv()'></div>";
@@ -46,7 +46,7 @@ Views.registerView('menu',{
      return html;
    },
    htmlFAQMenu : function () {
-      var html = "<div style='display:inline-block;height:30px;margin-left:2px;' class='showthatH'>";
+      var html = "<div style='display:inline-block;height:18px;margin-left:2px;' class='showthatH'>";
         html += _txt("menu>faq>meta>title");
         html += "<div class='showthisH'>";
         var q_as = _txtsObj("menu>faq>q_a");
@@ -60,7 +60,7 @@ Views.registerView('menu',{
       return html;
    },
    htmlOptionsMenu : function () {
-     var html = "<div style='display:inline-block;height:30px;margin-left:2px;' class='showthatH'>";
+     var html = "<div style='display:inline-block;height:18px;margin-left:2px;' class='showthatH'>";
      html += _txt("menu>options>meta>title");
      html += "<div class='showthisH'>";
       html += "<a target='_blank' href='"+_txt("menu>options>discord>link")+"'>"+_txt("menu>options>discord>title")+"</a><br>";
