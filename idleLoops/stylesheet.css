@@ -8,13 +8,13 @@ body {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    font-family:Arial, Helvetica, serif;
-    color:black;
-    font-size:14px;
-    height:100%;
-    margin:0;
-    background-color: #e4ece5;
-    cursor:default;
+    font-family: Arial, Helvetica, serif;
+    color: #bdbdbd;
+    font-size: 14px;
+    height: 100%;
+    margin: 0;
+    background-color: #323232;
+    cursor: default;
 }
 .showthatH:hover .showthisH {
     display:block;
