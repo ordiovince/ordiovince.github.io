@@ -917,7 +917,7 @@ function View() {
                 addClassToDiv(node, "statRegularContainer");
                 node.firstChild.style.display = "inline-block";
             }
-            document.getElementById("statsColumn").style.width = "316px";
+            //document.getElementById("statsColumn").style.width = "316px";
         } else {
             document.getElementById("radarChart").style.display = "inline-block";
             statContainer.style.position = "absolute";
@@ -927,7 +927,7 @@ function View() {
                 removeClassFromDiv(node, "statRegularContainer");
                 node.firstChild.style.display = "none";
             }
-            document.getElementById("statsColumn").style.width = "410px";
+            //document.getElementById("statsColumn").style.width = "410px";
         }
     };
 }
