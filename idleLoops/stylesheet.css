@@ -2,6 +2,10 @@ div {
     display:inline-block;
 }
 
+html {
+    overflow-x: hidden;
+}
+
 body {
     -webkit-touch-callout: none;
     -webkit-user-select: none;
