@@ -333,7 +333,7 @@ input {
 
 #expandableList {
     position:relative;
-    height:500px;
+    /*height:500px;*/
     width:100%;
     /*border-bottom:2px solid purple;*/
 }
