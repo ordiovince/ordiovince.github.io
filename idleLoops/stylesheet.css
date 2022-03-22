@@ -29,7 +29,7 @@ body {
 .showthis, .showthis2, .showthisH {
     display:none;
     position:absolute;
-    background-color: #c0e4c7;
+    background-color: #1e1e1e;
     border:1px solid;
     padding:3px 5px;
     border-radius:4px;
@@ -52,13 +52,13 @@ body {
 
 
 .large {
-    font-size:16px;
+    font-size:18px;
 }
 .medium {
-    font-size:14px;
+    font-size:16px;
 }
 .small {
-    font-size:12px;
+    font-size:14px;
 }
 .bold {
     font-weight:bold;
@@ -268,7 +268,7 @@ input {
     position:relative;
 }
 .nextActionContainer {
-    width:188px;
+    width:220px;
 }
 .curActionContainer {
     width:102px;
@@ -276,7 +276,7 @@ input {
 
 .actionIcon {
     text-align:center;
-    width:12px;
+    width:20px;
 }
 .actionIcon:hover {
     color:red;
@@ -314,7 +314,7 @@ input {
 }
 
 .locked {
-    background-color: #bfbfbf;
+    background-color: #192426;
     cursor:default;
     border-radius:10px;
 }
