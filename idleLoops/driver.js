@@ -402,7 +402,7 @@ function addOffline(num) {
 
 function toggleOffline() {
     if(bonusSpeed === 1) { //go fast
-        bonusSpeed = 4;
+        bonusSpeed = 10;
         document.getElementById('isBonusOn').innerHTML = _txt("time_controls>bonus_seconds>state>on");
     } else { //take it slow
         bonusSpeed = 1;
